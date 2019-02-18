@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.util.RetryListenerClass"/>
+  </listeners>
+  <test name="Appoinment_iphone(failed)">
+    <parameter name="browser" value="iphone"/>
+    <classes>
+      <class name="com.qa.testcases.ScheduleAppointmentsUseCase">
+        <methods>
+          <include name="usernameUITest"/>
+          <include name="getBrowserSetUp"/>
+          <include name="closeBrowser"/>
+          <include name="initilizeAllPreRequsites"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ScheduleAppointmentsUseCase -->
+    </classes>
+  </test> <!-- Appoinment_iphone(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

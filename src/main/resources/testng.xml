@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />		
+	</listeners>
+
+	<listeners>
+        <listener class-name="com.qa.util.RetryListenerClass"/>
+	</listeners>
+
+<!--  	<test name="Appoinment_chrome">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
+
+		</classes>
+	</test> -->
+	<!-- <test name="Appoinment_Firefox">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
+		</classes>
+	</test> -->
+	<!-- <test name="Appoinment_ie">
+	<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
+
+		</classes>
+	</test>
+	<test name="Appoinment_safari">
+	<parameter name="browser" value="safari" />
+		<classes>
+			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
+
+		</classes>
+	</test> -->
+	<test name="Appoinment_iphone">
+	<parameter name="browser" value="iphone" />
+		<classes>
+			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
+
+		</classes>
+	</test>
+</suite>
