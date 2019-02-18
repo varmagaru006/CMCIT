@@ -37,7 +37,7 @@
 
 		</classes>
 	</test> -->
-	<test name="Appoinment_iphone">
+	<test name="Appoinment_iphone"> 
 	<parameter name="browser" value="iphone" />
 		<classes>
 			<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>
